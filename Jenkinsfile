@@ -44,7 +44,7 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
                 echo "Password: ${params.PASSWORD}"
                 echo "trigger testing again"
-                jgjg
+                error 'something faiure'
             }
          }
     }
